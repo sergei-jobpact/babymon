@@ -1,0 +1,20 @@
+{
+  "name": "babymon",
+  "version": "0.0.1",
+  "description": "",
+  "main": "babymon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergei Golimbievsky",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.13.4",
+    "read-audio": "^7.0.1",
+    "request": "^2.72.0",
+    "terminal-bar": "0.0.3",
+    "through2": "^2.0.1"
+  }
+}
