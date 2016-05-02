@@ -27,3 +27,7 @@ app.post('/snapshot', multiparty, function(req,res) {
 		res.json(true);
 	});
 });
+
+app.get('/snapshot', function(req,res) {
+	res.sendFile(__dirname+'/recv.jpg');
+});

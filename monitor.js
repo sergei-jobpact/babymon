@@ -6,7 +6,7 @@ var config = require('./config.monitor');
 
 console.log('BabyMon Monitor');
 
-fs.watchFile(config.path, {interval:500}, function(curr,prev) {
+fs.watchFile(config.path, {interval:1000}, function(curr,prev) {
 	console.log('File changed');
 	uploadSnapshot(config.path);
 });
